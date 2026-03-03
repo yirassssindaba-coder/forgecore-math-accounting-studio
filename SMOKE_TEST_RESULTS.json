@@ -1,0 +1,60 @@
+{
+  "trial_balance_balanced": true,
+  "trial_totals": {
+    "debit": 1300.0,
+    "credit": 1300.0
+  },
+  "vat": {
+    "tax": 11.0,
+    "gross": 111.0
+  },
+  "expression": 20.0,
+  "linear": {
+    "x": 5.0
+  },
+  "quadratic": {
+    "discriminant": 1.0,
+    "roots": [
+      2.0,
+      1.0
+    ]
+  },
+  "stats": {
+    "count": 3,
+    "mean": 20.0,
+    "median": 20.0,
+    "stdev": 8.164966,
+    "min": 10.0,
+    "max": 30.0
+  },
+  "number_game": {
+    "low": {
+      "status": "low",
+      "message": "Terlalu kecil.",
+      "attempts": 1
+    },
+    "correct": {
+      "status": "correct",
+      "message": "Tebakan benar!",
+      "attempts": 2
+    }
+  },
+  "quiz": {
+    "wrong": {
+      "correct": false,
+      "score": 2
+    },
+    "right": {
+      "correct": true,
+      "score": 3
+    }
+  },
+  "csv_exists": true,
+  "summary": {
+    "journal_entries": 2,
+    "accounts": 3,
+    "balanced": true,
+    "quiz_score": 3,
+    "log_count": 51
+  }
+}
