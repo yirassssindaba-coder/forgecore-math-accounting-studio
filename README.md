@@ -17,184 +17,171 @@
 ---
 
 ## Overview
-**ForgeCore Polyglot Compiler Quiz Studio** adalah aplikasi desktop berbasis **Python + Tkinter** untuk mencoba banyak bahasa pemrograman menggunakan **compiler / runtime asli** yang terpasang di komputer pengguna. Proyek ini menggabungkan area compile-run, validasi expected output, quiz adaptif, riwayat report, dan pusat materi belajar dalam satu workspace.
+**ForgeCore Math & Accounting Studio** adalah aplikasi desktop berbasis **Python + Tkinter** yang dirancang untuk membangun **nuansa menghitung** dalam satu workspace modern. Proyek ini menggabungkan:
+- **Super Calculator** untuk rumus matematika dan akuntansi,
+- **Quiz Arena 1000 soal** dengan progres belajar,
+- **Learning Hub** untuk membuka dan menyalin PDF materi,
+- **Music & Focus** agar sesi belajar terasa lebih fokus dan hidup.
 
-Fokus utama proyek ini adalah membuat pengalaman belajar dan eksperimen terasa lebih natural seperti terminal biasa, tetapi tetap rapi, terstruktur, dan nyaman dipakai untuk latihan harian.
+Tujuan utama proyek ini adalah membuat pengalaman belajar menjadi **praktis, interaktif, dan terarah** tanpa harus berpindah antara banyak aplikasi.
 
 ---
 
 ## Key Features
-### 💻 Compiler Studio
-- Menjalankan source code memakai **toolchain asli** dari mesin lokal
-- Output utama fokus pada **hasil nyata program** (`stdout`) dan error compile/runtime bila ada
-- Mendukung **Program Input (stdin)** agar hasil benar-benar mengikuti input pengguna
-- **Expected Output** dapat diedit langsung untuk validasi manual
-- Ringkasan eksekusi tetap tersedia, seperti:
-  - exit code
-  - durasi eksekusi
-  - status cocok / tidak cocok dengan expected output
+### 🧠 Super Calculator
+- Kalkulator multi-kategori untuk kebutuhan belajar dan latihan hitung
+- Mendukung rumus inti seperti:
+  - kalkulus dasar
+  - statistik
+  - probabilitas
+  - linear algebra
+  - time value of money
+  - cost-volume-profit
+  - rasio keuangan
+  - audit risk
+- Form input dinamis mengikuti formula yang dipilih
+- Menampilkan **hasil utama** dan **langkah ringkas** agar mudah diverifikasi
 
-### 🧠 Adaptive Quiz Arena
-- Quiz bertimer untuk latihan konsep lintas bahasa
-- Pengguna bisa memilih:
-  - kategori quiz
+### 🎯 Quiz Arena 1000 Soal
+- Bank soal **1000 soal** untuk topik **Matematika** dan **Akuntansi**
+- Pilihan mode:
+  - Matematika
+  - Akuntansi
+  - Campur
+- Pengaturan sesi belajar:
   - jumlah soal
-  - durasi
-- Soal yang sudah dijawab benar akan ditandai **mastered**
-- Soal mastered **tidak ditampilkan lagi** pada sesi berikutnya agar latihan lebih efisien
+  - durasi menit
+- Fitur **Hide Mastered** untuk menyembunyikan soal yang sudah dijawab benar
+- Cocok untuk review bertahap, latihan cepat, dan simulasi belajar mandiri
 
 ### 📚 Learning Hub
-- Ringkasan materi bahasa pemrograman
-- Roadmap belajar dan command cheat sheet
-- Strategi latihan untuk mempercepat pemahaman toolchain
-- Tiga file PDF dibundel di folder `resources/` dan bisa diakses dari aplikasi
+- Menyediakan PDF materi bawaan langsung dari aplikasi
+- Mendukung aksi:
+  - **Open** untuk membuka file PDF
+  - **Export Copy** untuk menyimpan salinan ke folder pilihan
+- Membantu pengguna tetap terhubung ke materi inti saat belajar atau mengulang konsep
 
-### 📊 Reports dan Progress
-- Menyimpan report JSON detail untuk audit dan debugging
-- Menyimpan riwayat quiz dan progress pengguna secara otomatis
-- Membantu pengguna melihat perkembangan latihan dari waktu ke waktu
+### 🎵 Music & Focus
+- Menyediakan playlist URL untuk link seperti YouTube, Spotify, atau audio lainnya
+- Tombol play membuka URL melalui player default yang tersedia di sistem
+- Dilengkapi metronome BPM sederhana untuk membangun ritme fokus saat menghitung
 
-### 🎨 UI Lebih Terlihat
-- Kolom pilihan bahasa, kategori quiz, jumlah soal, dan durasi memakai **tema gelap**
-- Tata letak dibuat agar fokus ke editor, input, output, dan kontrol utama
+### ✅ Learning Progress Friendly
+- Soal yang sudah dikuasai bisa tidak dimunculkan lagi
+- State belajar tersimpan agar latihan terasa lebih efisien
+- Desain ini cocok untuk belajar bertahap tanpa mengulang soal yang sama terus-menerus
 
 ---
 
 ## Use Case Utama
-- **Belajar Banyak Bahasa**: mencoba syntax dan perilaku eksekusi lintas toolchain dari satu aplikasi
-- **Validasi Output**: membandingkan hasil aktual program dengan output yang diharapkan
-- **Latihan Coding Dasar**: cocok untuk eksperimen kecil, contoh cepat, dan cek perilaku runtime
-- **Quiz Pembelajaran**: mengulang materi dengan mode latihan bertimer dan progress mastery
-- **Demo Edukatif**: cocok untuk presentasi sederhana, latihan mandiri, atau portfolio belajar
+- **Belajar Mandiri**: mengulang konsep, mencoba rumus, dan mengerjakan quiz dalam satu aplikasi
+- **Persiapan Ujian**: latihan cepat untuk topik hitung, statistik, dan akuntansi dasar sampai lanjutan
+- **Review Materi**: membuka PDF referensi sambil langsung mencoba formula terkait
+- **Fokus Belajar**: memadukan kalkulasi, quiz, dan musik latar agar sesi belajar terasa lebih konsisten
 
 ---
 
-## Profil Toolchain yang Disediakan
-| Profil | Keterangan |
-|---|---|
-| **Python / Py Launcher** | Menjalankan skrip Python dari interpreter lokal. |
-| **C / C++** | Compile dan run memakai compiler native yang tersedia. |
-| **Java** | Compile dan run source Java dari JDK lokal. |
-| **.NET** | Menjalankan workflow berbasis toolchain .NET lokal. |
-| **Go / Swift / Kotlin / Ruby / Rust** | Profil native untuk eksperimen lintas bahasa umum. |
-| **Node.js / V8 / npm / npx** | Eksekusi JavaScript dan workflow Node lokal. |
-| **TypeScript / Vite / Deno / Bun** | Profil modern untuk ecosystem JavaScript dan TypeScript. |
-| **R / Julia / SQLite** | Profil untuk script, numerik, dan query dasar. |
-| **Haskell / Scala / Clojure / Elixir / Erlang / OCaml / Scheme** | Profil functional dan akademik untuk eksplorasi lebih luas. |
-| **Bash / PHP / Lua / Tcl / Nim / Crystal / NASM** | Profil tambahan untuk variasi toolchain dan low-level practice. |
+## Modul Formula
+| Kategori | Contoh Formula | Kegunaan |
+|---|---|---|
+| **Calculus** | turunan dasar, integral sederhana | memahami perubahan nilai dan akumulasi |
+| **Statistics** | mean, variance, standard deviation, z-score | analisis data dan distribusi |
+| **Probability** | kombinasi, permutasi, binomial, poisson, Bayes | peluang dan prediksi |
+| **Linear Algebra** | determinan 2x2, invers 2x2 | operasi matriks dasar |
+| **Finance & TVM** | NPV, present value, future value | valuasi arus kas dan investasi |
+| **Cost Accounting** | COGS, contribution margin, BEP | analisis biaya dan profitabilitas |
+| **Financial Ratios** | current ratio, debt ratio, gross margin | membaca kesehatan keuangan |
+| **Audit & Risk** | audit risk model | latihan audit dan evaluasi risiko |
 
 ---
 
-## Learning Resources
-### PDF yang Dibundel
-- `ringkasan-lengkap-bahasa-pemrograman.pdf`
-- `materi-bahasa-pemrograman-dan-1000-soal.pdf`
-- `IELTS_JLPT_1000_Practice_Pack.pdf`
+## Learning Assets
+### PDF Bawaan
+- `materi-matematika-akuntansi-dan-1000-soal.pdf`
+- `panduan-matematika-sains-data-lengkap.pdf`
+- `panduan-akuntansi-s1-s3-lengkap.pdf`
 
-### Materi yang Tersedia di App
-- Ringkasan fondasi bahasa pemrograman
-- Peta besar runtime, platform, dan toolchain
-- Command cheat sheet dasar
-- Strategi latihan dan roadmap belajar bertahap
+### Data Belajar
+- `data/quiz_math_accounting_1000.json` sebagai bank soal utama
+- Penyimpanan progres untuk mendukung mekanisme mastered question
 
 ---
 
 ## Tech Stack
-### Aplikasi
-- **Python 3**
-- **Tkinter**
-- **JSON** untuk data quiz, report, dan progress
-- **PowerShell / batch launcher** untuk shortcut menjalankan aplikasi di Windows
+### Core Application
+- **Python 3.x**
+- **Tkinter** untuk desktop interface
+- **JSON** untuk bank soal, metadata, dan state belajar
+- **Windows shell integration** untuk membuka PDF dan URL dengan aplikasi default
 
-### Komponen Internal
-- `engine.py` untuk proses compile-run dan orkestrasi output
-- `profiles.py` untuk definisi profil toolchain
-- `quizzes.py` untuk bank soal dan logika quiz
-- `materials.py` untuk materi dan Learning Hub
+### Functional Areas
+- Engine quiz untuk seleksi soal dan evaluasi jawaban
+- Engine kalkulator untuk formula terstruktur
+- Resource manager untuk PDF Learning Hub
+- Playlist utility untuk focus music berbasis URL
 
 ---
 
 ## Struktur Proyek
 ```text
-forgecore-polyglot-compiler-quiz-studio/
+forgecore-math-accounting-studio/
 ├─ app.py
-├─ engine.py
-├─ profiles.py
-├─ quizzes.py
-├─ materials.py
-├─ compiler_guide.md
-├─ quiz_guide.md
+├─ core.py
 ├─ smoke_test.py
 ├─ run.ps1
 ├─ run.bat
 ├─ README.md
-└─ resources/
-   ├─ ringkasan-lengkap-bahasa-pemrograman.pdf
-   ├─ materi-bahasa-pemrograman-dan-1000-soal.pdf
-   └─ IELTS_JLPT_1000_Practice_Pack.pdf
+├─ SMOKE_TEST_RESULTS.json
+├─ VALIDATION_RESULTS.md
+├─ LANGUAGE_RECOMMENDATIONS.md
+├─ data/
+│  └─ quiz_math_accounting_1000.json
+├─ resources/
+│  ├─ materi-matematika-akuntansi-dan-1000-soal.pdf
+│  ├─ panduan-akuntansi-s1-s3-lengkap.pdf
+│  └─ panduan-matematika-sains-data-lengkap.pdf
+└─ __pycache__/
 ```
 
 ---
 
 ## Cara Menjalankan
-### PowerShell
+### Jalankan Langsung
 ```powershell
-cd .\forgecore-polyglot-compiler-quiz-studio
+cd .\forgecore-math-accounting-studio
 python .\app.py
 ```
 
-### Alternatif Script
+### Jalankan via Shortcut Script
 ```powershell
-cd .\forgecore-polyglot-compiler-quiz-studio
 .\run.ps1
 ```
 
----
-
-## Validasi Cepat
+### Smoke Test
 ```powershell
-cd .\forgecore-polyglot-compiler-quiz-studio
 python .\smoke_test.py
 ```
 
 ---
 
-## Workspace Pengguna
-Saat aplikasi berjalan, file pengguna dan progress akan disimpan otomatis di:
-
-- `~/ForgeCorePolyglotCompilerQuizStudio/samples`
-- `~/ForgeCorePolyglotCompilerQuizStudio/reports`
-- `~/ForgeCorePolyglotCompilerQuizStudio/quiz_history`
-
----
-
-## Alur Pakai Singkat
-1. Pilih profil bahasa / toolchain
-2. Tulis atau muat source code sample
-3. Isi **Program Input** bila diperlukan
-4. Jalankan compile / run
-5. Bandingkan hasil aktual dengan **Expected Output**
-6. Lanjutkan ke tab quiz untuk latihan dan mastery
-7. Buka **Learning Hub** untuk materi dan PDF pendukung
-
----
-
-## Catatan Implementasi
-- Hasil compile dan run mengikuti kondisi toolchain asli di komputer pengguna
-- Perbedaan versi compiler, PATH, SDK, linker, atau dependency lokal dapat memengaruhi hasil
-- Aplikasi ini bukan simulator; hasil eksekusi bergantung pada environment nyata pengguna
-- Tidak membutuhkan dependency Python eksternal tambahan untuk fungsi inti
+## Highlight Tampilan dan Alur Belajar
+1. Pilih mode belajar atau formula yang ingin digunakan
+2. Atur jumlah soal dan durasi quiz sesuai target sesi
+3. Kerjakan soal dan lihat feedback langsung
+4. Gunakan kalkulator untuk memeriksa hasil hitung atau memahami rumus
+5. Buka PDF dari Learning Hub saat butuh teori tambahan
+6. Putar playlist fokus untuk menjaga ritme belajar tetap nyaman
 
 ---
 
 ## Future Improvements
-- Tambah editor yang lebih mirip IDE mini
-- Tambah terminal interaktif yang lebih natural untuk input bertahap
-- Tambah preset sample per bahasa yang lebih banyak
-- Tambah statistik progress quiz yang lebih visual
-- Tambah export report yang lebih lengkap untuk review pembelajaran
+- Embedded audio player langsung di dalam aplikasi
+- Formula library yang lebih luas untuk topik akuntansi lanjutan
+- Grafik progres belajar dan statistik performa
+- Mode review khusus untuk soal yang pernah salah
+- Tema UI yang lebih dinamis dengan visual belajar yang lebih interaktif
 
 ---
 
 ## License
-Proyek ini dibuat untuk **pembelajaran, eksperimen, latihan, dan pengembangan skill teknis**.
+Proyek ini dibuat untuk **pembelajaran, latihan, eksplorasi rumus, dan pengembangan aplikasi edukasi desktop**.
