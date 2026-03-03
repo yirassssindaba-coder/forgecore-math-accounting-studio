@@ -1,17 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;height=210&amp;color=0:111827,50:1d4ed8,100:14b8a6&amp;text=ForgeCore%20Math%20%26%20Accounting%20Studio&amp;fontSize=42&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Nuansa%20menghitung%20dengan%20kalkulator%2C%20quiz%2C%20materi%2C%20dan%20focus%20music&amp;descAlignY=58" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:111827,50:1d4ed8,100:14b8a6&text=ForgeCore%20Math%20%26%20Accounting%20Studio&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Nuansa%20menghitung%20dengan%20kalkulator%2C%20quiz%2C%20musik%2C%20dan%20learning%20hub&descAlignY=58" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=3000&amp;pause=700&amp;color=60A5FA&amp;center=true&amp;vCenter=true&amp;width=980&amp;lines=Desktop+app+Python+untuk+belajar+matematika+dan+akuntansi+dalam+satu+workspace;Super+Calculator+dengan+rumus+inti+dan+hasil+yang+terstruktur;Quiz+Arena+1000+soal+plus+Learning+Hub+dan+playlist+fokus+berbasis+URL" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=700&color=60A5FA&center=true&vCenter=true&width=980&lines=Desktop+app+Python+untuk+belajar+matematika+dan+akuntansi+dalam+satu+workspace;Super+Calculator+dengan+rumus+inti%2C+quiz+1000+soal%2C+dan+hasil+yang+terstruktur;Cocok+untuk+latihan+mandiri%2C+review+materi%2C+dan+sesi+belajar+yang+lebih+fokus" />
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.x-3776ab" />
   <img src="https://img.shields.io/badge/Tkinter-Desktop%20UI-1f6feb" />
   <img src="https://img.shields.io/badge/Quiz-1000%20Soal-14b8a6" />
   <img src="https://img.shields.io/badge/Calculator-Math%20%26%20Accounting-0ea5e9" />
-  <img src="https://img.shields.io/badge/PDF-Learning%20Hub-f59e0b" />
+  <img src="https://img.shields.io/badge/Learning%20Hub-PDF%20Ready-f59e0b" />
   <img src="https://img.shields.io/badge/Focus%20Music-Playlist%20URL-8b5cf6" />
-  <img src="https://img.shields.io/badge/Windows-Ready-22c55e" />
 </p>
 
 </div>
