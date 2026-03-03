@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0f172a,50:2563eb,100:14b8a6&text=ForgeCore%20Polyglot%20Compiler%20Quiz%20Studio&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Multi-language%20compiler%20sandbox%2C%20adaptive%20quiz%2C%20dan%20learning%20hub&descAlignY=58" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0f172a,50:2563eb,100:14b8a6&text=ForgeCore%20Math%20Accounting%20Studio&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Mathematics%20and%20accounting%20calculator%2C%20quiz%2C%20dan%20learning%20hub&descAlignY=58" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=700&color=60A5FA&center=true&vCenter=true&width=980&lines=Studio+desktop+Python+untuk+uji+banyak+bahasa+dengan+toolchain+asli;Compile%2C+run%2C+validasi+output%2C+quiz+adaptif%2C+dan+materi+dalam+satu+app;Cocok+untuk+latihan%2C+eksperimen%2C+demo%2C+dan+pembelajaran+multi-toolchain" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=700&color=60A5FA&center=true&vCenter=true&width=980&lines=Studio+desktop+Python+untuk+hitung+matematika+dan+akuntansi+dengan+rumus+akurat;Kalkulator+lengkap%2C+quiz+adaptif%2C+playlist+fokus%2C+dan+materi+dalam+satu+app;Cocok+untuk+latihan%2C+belajar%2C+simulasi%2C+dan+pembelajaran+numerik+modern" />
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.x-3776ab" />
   <img src="https://img.shields.io/badge/Tkinter-Desktop%20UI-1f6feb" />
-  <img src="https://img.shields.io/badge/Multi--Toolchain-36%20Profiles-14b8a6" />
-  <img src="https://img.shields.io/badge/Quiz-Adaptive-8b5cf6" />
+  <img src="https://img.shields.io/badge/Math%20%26%20Accounting-Smart%20Calculator-14b8a6" />
+  <img src="https://img.shields.io/badge/Quiz-1000%20Questions-8b5cf6" />
   <img src="https://img.shields.io/badge/Learning%20Hub-PDF%20Ready-0ea5e9" />
 </p>
 
