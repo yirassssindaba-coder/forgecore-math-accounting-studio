@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:111827,50:1d4ed8,100:14b8a6&text=ForgeCore%20Math%20%26%20Accounting%20Studio&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Nuansa%20menghitung%20dengan%20kalkulator%2C%20quiz%2C%20materi%2C%20dan%20focus%20music&descAlignY=58" />
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;height=210&amp;color=0:111827,50:1d4ed8,100:14b8a6&amp;text=ForgeCore%20Math%20%26%20Accounting%20Studio&amp;fontSize=42&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Nuansa%20menghitung%20dengan%20kalkulator%2C%20quiz%2C%20materi%2C%20dan%20focus%20music&amp;descAlignY=58" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=700&color=60A5FA&center=true&vCenter=true&width=980&lines=Desktop+app+Python+untuk+belajar+matematika+dan+akuntansi+dalam+satu+workspace;Super+Calculator+dengan+rumus+inti+dan+hasil+yang+terstruktur;Quiz+Arena+1000+soal+plus+Learning+Hub+dan+playlist+fokus+berbasis+URL" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=3000&amp;pause=700&amp;color=60A5FA&amp;center=true&amp;vCenter=true&amp;width=980&amp;lines=Desktop+app+Python+untuk+belajar+matematika+dan+akuntansi+dalam+satu+workspace;Super+Calculator+dengan+rumus+inti+dan+hasil+yang+terstruktur;Quiz+Arena+1000+soal+plus+Learning+Hub+dan+playlist+fokus+berbasis+URL" />
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.x-3776ab" />
